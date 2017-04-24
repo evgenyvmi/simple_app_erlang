@@ -1,0 +1,10 @@
+<table>
+<tr><td><strong>List of books to read</strong></td></tr>
+<tr><td><a href="http://localhost:8001/books/create">Add a book</a></td></tr>
+<tr><td>Title</td><td>Author</td></tr>
+{% for book in books %}
+<tr><td>{{ book.title }}</td>
+    <td>{{ book.author_name }}</td>
+</tr>
+{% endfor %}
+</table>

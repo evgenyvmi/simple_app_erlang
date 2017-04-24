@@ -1,0 +1,7 @@
+<p>How The Kids, {{ ward_boss.name }}?</p>
+<ol>
+{% for voter in voters %}
+<li><a href="/voter/view/{{ voter.id }}">{{ voter.first_name }} {{ voter.last_name }}</a>
+</li>
+{% endfor %}
+</ol>

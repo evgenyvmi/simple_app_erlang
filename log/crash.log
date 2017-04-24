@@ -1,0 +1,280 @@
+2017-04-22 11:12:34 =ERROR REPORT====
+** Generic server <0.290.0> terminating 
+** Last message in was {route,"/about"}
+** When Server state == {state,simple,["simple_about_controller","simple_books_controller","simple_greeting_controller","simple_home_controller","simple_index_controller"],45086,49183,53280}
+** Reason for termination == 
+** {'module could not be loaded',[{simple_about_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,212}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,168}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,76}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-04-22 11:12:34 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.290.0>
+    registered_name: []
+    exception exit: {{undef,[{simple_about_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,212}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,168}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,76}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.289.0>,boss_web,boss_sup,<0.117.0>]
+    messages: []
+    links: [<0.289.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3547
+  neighbours:
+2017-04-22 11:12:34 =SUPERVISOR REPORT====
+     Supervisor: {<0.289.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{simple_about_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,212}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,168}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,76}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.290.0>},{id,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,simple},{controllers,["simple_about_controller","simple_books_controller","simple_greeting_controller","simple_home_controller","simple_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2017-04-22 11:13:33 =ERROR REPORT====
+** Generic server <0.367.0> terminating 
+** Last message in was {route,"/about"}
+** When Server state == {state,simple,["simple_about_controller","simple_books_controller","simple_greeting_controller","simple_home_controller","simple_index_controller"],57376,61471,65566}
+** Reason for termination == 
+** {'module could not be loaded',[{simple_about_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,212}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,168}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,76}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-04-22 11:13:33 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.367.0>
+    registered_name: []
+    exception exit: {{undef,[{simple_about_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,212}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,168}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,76}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.289.0>,boss_web,boss_sup,<0.117.0>]
+    messages: []
+    links: [<0.289.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 1437
+  neighbours:
+2017-04-22 11:13:33 =SUPERVISOR REPORT====
+     Supervisor: {<0.289.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{simple_about_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,212}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,168}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,76}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.367.0>},{id,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,simple},{controllers,["simple_about_controller","simple_books_controller","simple_greeting_controller","simple_home_controller","simple_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2017-04-24 13:51:29 =ERROR REPORT====
+** Generic server <0.297.0> terminating 
+** Last message in was {route,"/voter/"}
+** When Server state == {state,simple,["simple_about_controller","simple_books_controller","simple_greeting_controller","simple_home_controller","simple_index_controller","simple_voter_controller"],57377,61474,65571}
+** Reason for termination == 
+** {'module could not be loaded',[{simple_voter_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,212}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,168}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,76}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-04-24 13:51:30 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.297.0>
+    registered_name: []
+    exception exit: {{undef,[{simple_voter_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,212}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,168}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,76}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.296.0>,boss_web,boss_sup,<0.117.0>]
+    messages: []
+    links: [<0.296.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 5165
+  neighbours:
+2017-04-24 13:51:30 =SUPERVISOR REPORT====
+     Supervisor: {<0.296.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{simple_voter_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,212}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,168}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,76}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.297.0>},{id,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,simple},{controllers,["simple_about_controller","simple_books_controller","simple_greeting_controller","simple_home_controller","simple_index_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2017-04-24 13:53:24 =ERROR REPORT====
+** Generic server <0.297.0> terminating 
+** Last message in was {route,"/voter/"}
+** When Server state == {state,simple,["simple_about_controller","simple_books_controller","simple_greeting_controller","simple_home_controller","simple_index_controller","simple_voter_controller"],57377,61474,65571}
+** Reason for termination == 
+** {'module could not be loaded',[{simple_voter_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,212}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,168}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,76}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-04-24 13:53:24 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.297.0>
+    registered_name: []
+    exception exit: {{undef,[{simple_voter_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,212}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,168}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,76}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.296.0>,boss_web,boss_sup,<0.117.0>]
+    messages: []
+    links: [<0.296.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 3067
+  neighbours:
+2017-04-24 13:53:24 =SUPERVISOR REPORT====
+     Supervisor: {<0.296.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{simple_voter_controller,module_info,[attributes],[]},{boss_router_controller,default_action,2,[{file,"src/boss/boss_router_controller.erl"},{line,212}]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,168}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,76}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.297.0>},{id,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,simple},{controllers,["simple_about_controller","simple_books_controller","simple_greeting_controller","simple_home_controller","simple_index_controller","simple_voter_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2017-04-24 14:10:07 =ERROR REPORT====
+** Generic server boss_news terminating 
+** Last message in was {updated,"voter-1",[{id,"voter-1"},{first_name,"whatever"},{last_name,"whatever"},{address,"whatever"},{notes,"whatever"}],[{id,"voter-1"},{first_name,"Barack"},{last_name,"Obama"},{address,"Washington, US"},{notes,"marxist, communist"}]}
+** When Server state == {state,{dict,5,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[[6|{watch,[{id_attr,"voter-2","*"}],#Fun<cb_admin_lib.push_update.3>,"admin0c908784b5ba7e90f36eaedc42640e1ba4d27279",1493024961,60}]],[],[],[],[],[[5|{watch,[{id_attr,"voter-2","*"}],#Fun<cb_admin_lib.push_update.3>,"admin0c908784b5ba7e90f36eaedc42640e1ba4d27279",1493024909,60}]],[[8|{watch,[{id_attr,"voter-1","*"}],#Fun<cb_admin_lib.push_update.3>,"admin0c908784b5ba7e90f36eaedc42640e1ba4d27279",1493024965,60}]],[],[],[],[[4|{watch,[{id_attr,"voter-2","*"},{id_attr,"voter-1","*"}],#Fun<cb_admin_lib.push_update.3>,"admin0c908784b5ba7e90f36eaedc42640e1ba4d27279",1493024906,60}]],[[7|{watch,[{id_attr,"voter-2","*"},{id_attr,"voter-1","*"}],#Fun<cb_admin_lib.push_update.3>,"admin0c908784b5ba7e90f36eaedc42640e1ba4d27279",1493024963,60}]],[],[]}}},{5,{1493024906,[4],nil,{1493024909,[5],nil,{1493024961,[6],nil,{1493024963,[7],nil,{1493024965,"\b",nil,nil}}}}}},{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},{dict,2,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[["voter-1",8,7,4,3]],[],[],[],[],[["voter-2",7,6,5,4]],[],[],[],[],[]}}},9}
+** Reason for termination == 
+** {badarg,[{dict,fetch,[3,{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}}],[{file,"dict.erl"},{line,131}]},{boss_news_controller_util,'-news_update_controller_inner_2/10-fun-0-',10,[{file,"src/boss_news_controller_util.erl"},{line,158}]},{lists,foldr,3,[{file,"lists.erl"},{line,1276}]},{boss_news_controller,handle_call,3,[{file,"src/boss_news_controller.erl"},{line,209}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-04-24 14:10:07 =CRASH REPORT====
+  crasher:
+    initial call: boss_news_controller:init/1
+    pid: <0.164.0>
+    registered_name: []
+    exception exit: {{badarg,[{dict,fetch,[3,{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}}],[{file,"dict.erl"},{line,131}]},{boss_news_controller_util,'-news_update_controller_inner_2/10-fun-0-',10,[{file,"src/boss_news_controller_util.erl"},{line,158}]},{lists,foldr,3,[{file,"lists.erl"},{line,1276}]},{boss_news_controller,handle_call,3,[{file,"src/boss_news_controller.erl"},{line,209}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.163.0>,boss_web,boss_sup,<0.117.0>]
+    messages: []
+    links: [<0.163.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 4801
+  neighbours:
+2017-04-24 14:10:07 =SUPERVISOR REPORT====
+     Supervisor: {global,boss_news_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{dict,fetch,[3,{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}}],[{file,"dict.erl"},{line,131}]},{boss_news_controller_util,'-news_update_controller_inner_2/10-fun-0-',10,[{file,"src/boss_news_controller_util.erl"},{line,158}]},{lists,foldr,3,[{file,"lists.erl"},{line,1276}]},{boss_news_controller,handle_call,3,[{file,"src/boss_news_controller.erl"},{line,209}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.164.0>},{id,news_controller},{mfargs,{boss_news_controller,start_link,[[]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2017-04-24 17:31:58 =ERROR REPORT====
+** Generic server boss_db_mock terminating 
+** Last message in was {find,voter,[],all,0,id,ascending}
+** When Server state == [{{dict,2,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[["voter-1"|{voter,"voter-1","Barack","Obama","Washington, US","marxist communist"}]],[],[],[],[],[["voter-2"|{voter,"voter-2","George","Martin","Alabama beach, California","write a damn book"}]],[],[],[],[],[]}}},6}]
+** Reason for termination == 
+** {function_clause,[{voter,id,[{voter,"voter-1","Barack","Obama","Washington, US","marxist communist"}],[]},{boss_db_mock_controller,sortable_attribute,2,[{file,"src/boss_db_mock_controller.erl"},{line,178}]},{boss_db_mock_controller,'-do_find/7-fun-0-',4,[{file,"src/boss_db_mock_controller.erl"},{line,108}]},{lists,sort,2,[{file,"lists.erl"},{line,969}]},{boss_db_mock_controller,do_find,7,[{file,"src/boss_db_mock_controller.erl"},{line,107}]},{boss_db_mock_controller,handle_call,3,[{file,"src/boss_db_mock_controller.erl"},{line,24}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]}]}
+2017-04-24 17:31:58 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_mock_controller:init/1
+    pid: <0.121.0>
+    registered_name: []
+    exception exit: {{function_clause,[{voter,id,[{voter,"voter-1","Barack","Obama","Washington, US","marxist communist"}],[]},{boss_db_mock_controller,sortable_attribute,2,[{file,"src/boss_db_mock_controller.erl"},{line,178}]},{boss_db_mock_controller,'-do_find/7-fun-0-',4,[{file,"src/boss_db_mock_controller.erl"},{line,108}]},{lists,sort,2,[{file,"lists.erl"},{line,969}]},{boss_db_mock_controller,do_find,7,[{file,"src/boss_db_mock_controller.erl"},{line,107}]},{boss_db_mock_controller,handle_call,3,[{file,"src/boss_db_mock_controller.erl"},{line,24}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.120.0>,boss_web,boss_sup,<0.117.0>]
+    messages: []
+    links: [<0.120.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 4346
+  neighbours:
+2017-04-24 17:31:58 =ERROR REPORT====
+** Generic server <0.129.0> terminating 
+** Last message in was {find,voter,[],all,0,id,ascending,[]}
+** When Server state == {state,connected,1,undefined,[{name,{local,boss_db_pool}},{worker_module,boss_db_controller},{size,5},{max_overflow,10},{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}],boss_db_adapter_mock,undefined,undefined,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {{{function_clause,[{voter,id,[{voter,"voter-1","Barack","Obama","Washington, US","marxist communist"}],[]},{boss_db_mock_controller,sortable_attribute,2,[{file,"src/boss_db_mock_controller.erl"},{line,178}]},{boss_db_mock_controller,'-do_find/7-fun-0-',4,[{file,"src/boss_db_mock_controller.erl"},{line,108}]},{lists,sort,2,[{file,"lists.erl"},{line,969}]},{boss_db_mock_controller,do_find,7,[{file,"src/boss_db_mock_controller.erl"},{line,107}]},{boss_db_mock_controller,handle_call,3,[{file,"src/boss_db_mock_controller.erl"},{line,24}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]}]},{gen_server,call,[{global,boss_db_mock},{find,voter,[],all,0,id,ascending}]}},[{gen_server,call,2,[{file,"gen_server.erl"},{line,204}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,122}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-04-24 17:31:58 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.129.0>
+    registered_name: []
+    exception exit: {{{function_clause,[{voter,id,[{voter,"voter-1","Barack","Obama","Washington, US","marxist communist"}],[]},{boss_db_mock_controller,sortable_attribute,2,[{file,"src/boss_db_mock_controller.erl"},{line,178}]},{boss_db_mock_controller,'-do_find/7-fun-0-',4,[{file,"src/boss_db_mock_controller.erl"},{line,108}]},{lists,sort,2,[{file,"lists.erl"},{line,969}]},{boss_db_mock_controller,do_find,7,[{file,"src/boss_db_mock_controller.erl"},{line,107}]},{boss_db_mock_controller,handle_call,3,[{file,"src/boss_db_mock_controller.erl"},{line,24}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]}]},{gen_server,call,[{global,boss_db_mock},{find,voter,[],all,0,id,ascending}]}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.124.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.117.0>]
+    messages: []
+    links: [<0.124.0>,<0.123.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 2696
+  neighbours:
+2017-04-24 17:31:58 =SUPERVISOR REPORT====
+     Supervisor: {global,boss_db_mock_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{voter,id,[{voter,"voter-1","Barack","Obama","Washington, US","marxist communist"}],[]},{boss_db_mock_controller,sortable_attribute,2,[{file,"src/boss_db_mock_controller.erl"},{line,178}]},{boss_db_mock_controller,'-do_find/7-fun-0-',4,[{file,"src/boss_db_mock_controller.erl"},{line,108}]},{lists,sort,2,[{file,"lists.erl"},{line,969}]},{boss_db_mock_controller,do_find,7,[{file,"src/boss_db_mock_controller.erl"},{line,107}]},{boss_db_mock_controller,handle_call,3,[{file,"src/boss_db_mock_controller.erl"},{line,24}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]}]}
+     Offender:   [{pid,<0.121.0>},{id,db_mock_controller},{mfargs,{boss_db_mock_controller,start_link,[[]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2017-04-24 17:31:58 =SUPERVISOR REPORT====
+     Supervisor: {<0.124.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {{function_clause,[{voter,id,[{voter,"voter-1","Barack","Obama","Washington, US","marxist communist"}],[]},{boss_db_mock_controller,sortable_attribute,2,[{file,"src/boss_db_mock_controller.erl"},{line,178}]},{boss_db_mock_controller,'-do_find/7-fun-0-',4,[{file,"src/boss_db_mock_controller.erl"},{line,108}]},{lists,sort,2,[{file,"lists.erl"},{line,969}]},{boss_db_mock_controller,do_find,7,[{file,"src/boss_db_mock_controller.erl"},{line,107}]},{boss_db_mock_controller,handle_call,3,[{file,"src/boss_db_mock_controller.erl"},{line,24}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]}]},{gen_server,call,[{global,boss_db_mock},{find,voter,[],all,0,id,ascending}]}}
+     Offender:   [{pid,<0.129.0>},{id,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2017-04-24 17:56:22 =ERROR REPORT====
+** Generic server boss_db_mock terminating 
+** Last message in was {count,ward_boss,[]}
+** When Server state == [{{dict,4,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[["ward_boss-4"|{ward_boss,"ward_boss-4","GreatAgain"}]],[["ward_boss-1"|{ward_boss,"ward_boss-1","Obamacare"}],["voter-5"|{voter,"voter-5","Donald","Trump","washington","grab her by the pussy","ward_boss-4"}]],[["voter-2"|{voter,"voter-2","Barack","Obama","Washington","marxist commie","ward_boss-1"}]],[],[],[],[],[]}}},6}]
+** Reason for termination == 
+** {function_clause,[{ward_boss,id,[{ward_boss,"ward_boss-4","GreatAgain"}],[]},{boss_db_mock_controller,sortable_attribute,2,[{file,"src/boss_db_mock_controller.erl"},{line,178}]},{boss_db_mock_controller,'-do_find/7-fun-0-',4,[{file,"src/boss_db_mock_controller.erl"},{line,108}]},{lists,sort,2,[{file,"lists.erl"},{line,969}]},{boss_db_mock_controller,do_find,7,[{file,"src/boss_db_mock_controller.erl"},{line,107}]},{boss_db_mock_controller,handle_call,3,[{file,"src/boss_db_mock_controller.erl"},{line,27}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]}]}
+2017-04-24 17:56:22 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_mock_controller:init/1
+    pid: <0.767.0>
+    registered_name: []
+    exception exit: {{function_clause,[{ward_boss,id,[{ward_boss,"ward_boss-4","GreatAgain"}],[]},{boss_db_mock_controller,sortable_attribute,2,[{file,"src/boss_db_mock_controller.erl"},{line,178}]},{boss_db_mock_controller,'-do_find/7-fun-0-',4,[{file,"src/boss_db_mock_controller.erl"},{line,108}]},{lists,sort,2,[{file,"lists.erl"},{line,969}]},{boss_db_mock_controller,do_find,7,[{file,"src/boss_db_mock_controller.erl"},{line,107}]},{boss_db_mock_controller,handle_call,3,[{file,"src/boss_db_mock_controller.erl"},{line,27}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.120.0>,boss_web,boss_sup,<0.117.0>]
+    messages: []
+    links: [<0.120.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 5167
+  neighbours:
+2017-04-24 17:56:22 =SUPERVISOR REPORT====
+     Supervisor: {global,boss_db_mock_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{ward_boss,id,[{ward_boss,"ward_boss-4","GreatAgain"}],[]},{boss_db_mock_controller,sortable_attribute,2,[{file,"src/boss_db_mock_controller.erl"},{line,178}]},{boss_db_mock_controller,'-do_find/7-fun-0-',4,[{file,"src/boss_db_mock_controller.erl"},{line,108}]},{lists,sort,2,[{file,"lists.erl"},{line,969}]},{boss_db_mock_controller,do_find,7,[{file,"src/boss_db_mock_controller.erl"},{line,107}]},{boss_db_mock_controller,handle_call,3,[{file,"src/boss_db_mock_controller.erl"},{line,27}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]}]}
+     Offender:   [{pid,<0.767.0>},{id,db_mock_controller},{mfargs,{boss_db_mock_controller,start_link,[[]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+
+2017-04-24 17:56:22 =ERROR REPORT====
+** Generic server <0.768.0> terminating 
+** Last message in was {count,ward_boss,[]}
+** When Server state == {state,connected,1,undefined,[{name,{local,boss_db_pool}},{worker_module,boss_db_controller},{size,5},{max_overflow,10},{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}],boss_db_adapter_mock,undefined,undefined,[],{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},false,60,db,0}
+** Reason for termination == 
+** {{{function_clause,[{ward_boss,id,[{ward_boss,"ward_boss-4","GreatAgain"}],[]},{boss_db_mock_controller,sortable_attribute,2,[{file,"src/boss_db_mock_controller.erl"},{line,178}]},{boss_db_mock_controller,'-do_find/7-fun-0-',4,[{file,"src/boss_db_mock_controller.erl"},{line,108}]},{lists,sort,2,[{file,"lists.erl"},{line,969}]},{boss_db_mock_controller,do_find,7,[{file,"src/boss_db_mock_controller.erl"},{line,107}]},{boss_db_mock_controller,handle_call,3,[{file,"src/boss_db_mock_controller.erl"},{line,27}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]}]},{gen_server,call,[{global,boss_db_mock},{count,ward_boss,[]}]}},[{gen_server,call,2,[{file,"gen_server.erl"},{line,204}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,142}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-04-24 17:56:22 =CRASH REPORT====
+  crasher:
+    initial call: boss_db_controller:init/1
+    pid: <0.768.0>
+    registered_name: []
+    exception exit: {{{function_clause,[{ward_boss,id,[{ward_boss,"ward_boss-4","GreatAgain"}],[]},{boss_db_mock_controller,sortable_attribute,2,[{file,"src/boss_db_mock_controller.erl"},{line,178}]},{boss_db_mock_controller,'-do_find/7-fun-0-',4,[{file,"src/boss_db_mock_controller.erl"},{line,108}]},{lists,sort,2,[{file,"lists.erl"},{line,969}]},{boss_db_mock_controller,do_find,7,[{file,"src/boss_db_mock_controller.erl"},{line,107}]},{boss_db_mock_controller,handle_call,3,[{file,"src/boss_db_mock_controller.erl"},{line,27}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]}]},{gen_server,call,[{global,boss_db_mock},{count,ward_boss,[]}]}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.124.0>,boss_db_pool,boss_db_sup,boss_web,boss_sup,<0.117.0>]
+    messages: []
+    links: [<0.124.0>,<0.123.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 3384
+  neighbours:
+2017-04-24 17:56:22 =SUPERVISOR REPORT====
+     Supervisor: {<0.124.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {{function_clause,[{ward_boss,id,[{ward_boss,"ward_boss-4","GreatAgain"}],[]},{boss_db_mock_controller,sortable_attribute,2,[{file,"src/boss_db_mock_controller.erl"},{line,178}]},{boss_db_mock_controller,'-do_find/7-fun-0-',4,[{file,"src/boss_db_mock_controller.erl"},{line,108}]},{lists,sort,2,[{file,"lists.erl"},{line,969}]},{boss_db_mock_controller,do_find,7,[{file,"src/boss_db_mock_controller.erl"},{line,107}]},{boss_db_mock_controller,handle_call,3,[{file,"src/boss_db_mock_controller.erl"},{line,27}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]}]},{gen_server,call,[{global,boss_db_mock},{count,ward_boss,[]}]}}
+     Offender:   [{pid,<0.768.0>},{id,boss_db_controller},{mfargs,{boss_db_controller,start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2017-04-24 21:32:32 =ERROR REPORT====
+** Generic server <0.297.0> terminating 
+** Last message in was {route,"/"}
+** When Server state == {state,simple,["simple_about_controller","simple_books_controller","simple_greeting_controller","simple_home_controller","simple_index_controller","simple_user_controller","simple_voter_controller"],57377,61474,65571}
+** Reason for termination == 
+** {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,182}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,76}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-04-24 21:32:32 =CRASH REPORT====
+  crasher:
+    initial call: boss_router_controller:init/1
+    pid: <0.297.0>
+    registered_name: []
+    exception exit: {{badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,182}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,76}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,812}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.296.0>,boss_web,boss_sup,<0.117.0>]
+    messages: []
+    links: [<0.296.0>]
+    dictionary: [{boss_environment,development}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 38376
+  neighbours:
+2017-04-24 21:32:32 =SUPERVISOR REPORT====
+     Supervisor: {<0.296.0>,boss_router_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,list_to_atom,[undefined],[]},{boss_router_controller,route,2,[{file,"src/boss/boss_router_controller.erl"},{line,182}]},{boss_router_controller,handle_call,3,[{file,"src/boss/boss_router_controller.erl"},{line,76}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,615}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,647}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.297.0>},{id,router_controller},{mfargs,{boss_router_controller,start_link,[[{application,simple},{controllers,["simple_about_controller","simple_books_controller","simple_greeting_controller","simple_home_controller","simple_index_controller","simple_user_controller","simple_voter_controller"]}]]}},{restart_type,permanent},{shutdown,2000},{child_type,worker}]
+

@@ -1,0 +1,16 @@
+{% if errors %}
+<ol>
+{% for error in errors %}
+<li><font color=red>{{ error }}</font>
+{% endfor %}
+</ol>
+{% endif %}
+
+<form method="post">
+Title of the book<br />
+<input name="Title"/><br /><br />
+
+Author<br />
+<textarea name="AuthorName"></textarea><br /><br />
+<input type="submit" value="Add a book" />
+</form>
